@@ -70,15 +70,25 @@ body {
 }
 
 /* main content */
-#main-content {
-    box-sizing: content-box;
-    background-color: #AAA;
-    height: 1000px;
-    width: 90%;
-    margin: auto;
-    padding: 10px;
+#main-row {
+    margin: 0;
 }
 
-#one-big-section h2{
-    font-size: 1.5em;
+.col-lg-4, .col-md-6, .col-sm-6, .col-xs-12, .col-md-12, .col-sm-12 {
+    padding: 0;
+    margin : 5px 0px 0px 0px;
+}
+
+.menu-sec {
+    box-sizing: border-box;
+    background-color: #AAA;
+    height: 1000px;
+    padding: 5px 10px 5px;
+    margin: 15px;
+    position: relative;
+}
+
+.menu-sec a {
+    position: absolute;
+    bottom: 10px;
 }
